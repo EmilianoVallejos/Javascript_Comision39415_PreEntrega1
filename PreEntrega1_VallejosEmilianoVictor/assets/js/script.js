@@ -9,16 +9,14 @@ function precio_a_pagar(monto, socio) {
     return precio_no;
     }
 }
+//INPUT
 let socio = prompt(
 "Ingresar si es Socio: Si/No. Socios tienen beneficio de 30% de descuento."
 )
 
 // VERIFICADOR DE SOCIO
 while (socio != "Si" && socio != "si" && socio != "No" && socio != "no") {
-    alert("Ingrese si es socio o no: SI/NO.");
-    let socio = prompt(
-    "Ingresar si es Socio: Si/No. Socios tienen beneficio de 30% de descuento."
-);
+    alert(socio);
 }
 
 compra = prompt(
